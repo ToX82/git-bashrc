@@ -2,6 +2,7 @@ git-bashrc
 ==========
 
 This is a little hack to .bashrc to facilitate the use of GIT through colors to indicate the status of the repository.
+
 ![preview image](http://emanuele.itoscano.com/files/files/blog/git-bashrc.png)
 
 
