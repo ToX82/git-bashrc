@@ -30,7 +30,7 @@ If you want a shell like that, just add this lines at the end of your .bashrc fi
           # Push needed
           echo "'$Green'"$(__git_ps1)* '$Color_Off'\w\$ ""; 
     
-        elif [[ $status == *"nothing to commit"* ]]; then 
+        else
           # Clean repository - nothing to commit
           echo "'$Green'"$(__git_ps1) '$Color_Off'\w\$ ""; 
     
